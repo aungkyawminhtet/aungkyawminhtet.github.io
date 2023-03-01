@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(clock.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menubar{
+     border:2px solid black;
+     background-color: black;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.menubar ul{
+    display: flex;
+    list-style: none;
+}
+.menubar ul li{
+    padding: 15px 20px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+}
+.menubar ul li a:hover{
+    background-color: rgb(240, 242, 244);
+    color: black;
+    box-shadow: 0 0 10px white;
+}
